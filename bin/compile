@@ -49,7 +49,7 @@ case "$STACK" in
     APT_FLAGS="--allow-downgrades --allow-remove-essential --allow-change-held-packages"
     ;;
   *)
-    error "STACK must be 'cedar-14', 'heroku-16', or 'heroku-18', or 'scalingo', or 'scalingo-18'"
+    error "STACK must be 'cedar-14', 'heroku-16', or 'heroku-18', or 'scalingo-14', or 'scalingo-18'"
 esac
 
 topic "Updating apt caches"
